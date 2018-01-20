@@ -3,5 +3,5 @@
 A open project to create a fan controller with heat sensors based on 
 Atmega 328P chip.
 
-schematic tics and others will be available at a later date.. 
-this project
+schematics and other notes will be available at a later date.. 
+
