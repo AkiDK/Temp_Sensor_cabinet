@@ -5,3 +5,5 @@ Atmega 328P chip.
 
 schematics and other notes will be available at a later date.. 
 
+Maybe a lot later :)
+
