@@ -19,7 +19,7 @@
   |_.__/ \__, | \_/ \_/_|\_\_|  \___/\/ \___/ \__,_|_| |_|
        |___/
 */
-/* Version 0.01 */
+/* Version 0.02 */
 /* Pin Out */
 
 static int R_pin = 9;   // Red   LED,  connected to digital pin 9
@@ -79,7 +79,7 @@ static void SetNewTemperatureInLog() {
     
 }
 
-//Initilizer
+//Initializer
 void setup() {
 
   Serial.begin(9600);
@@ -88,7 +88,7 @@ void setup() {
   pinMode(G_pin, OUTPUT);
   pinMode(B_pin, OUTPUT);
 
-  //Initilize TempHistory (Set Current Temp)
+  //Initialize TempHistory (Set Current Temp)
   SetCurrentTemp();
   for (int arrayPos = 0; arrayPos < 10; arrayPos++) {
     for (int tempSensor = 0 ; tempSensor < 3 ; tempSensor ++) {
